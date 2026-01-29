@@ -1,0 +1,240 @@
+:root {
+    --primary: #182951;
+    --light: #f5f7fb;
+    --text: #1a1a1a;
+    }
+    
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+    
+    body {
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #333;
+   
+    font-family: consolas;
+    }
+    
+    /* Navbar */
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-bottom: 1px solid #eee;
+    }
+    
+    .logo {
+    font-weight: bold;
+    color: var(--primary);
+    font-size: 20px;
+    }
+    
+    .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    }
+    
+    .nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    }
+    
+    /* Hero */
+    .hero {
+        background-image: src="images/Wireframe - 1.png";
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 60px;
+    align-items: center;
+    }
+    
+    /*.hero-text {
+    max-width: 100%;
+    }*/
+    
+    .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+    }
+    
+    .hero-text p {
+    margin-bottom: 30px;
+    }
+    
+    .primary-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    }
+    
+    /* Mockups */
+    
+    .laptop-mockup img{
+    width: 50%;
+    height: auto;
+    }
+    
+    
+    /* Pain Points */
+    .pain-points {
+    background: var(--light);
+    padding: 80px 60px;
+    }
+    
+    .pain-points h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    
+    .container{
+        width: 1000px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container .card{
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .container .card .face{
+        width: 300px;
+        height: 200px;
+        transition: 0.5s;
+    }
+    
+    .container .card .face.face1{
+        position: relative;
+        background: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(100px);
+    }
+    
+    .container .card:hover .face.face1{
+        background: #ff0057;
+        transform: translateY(0);
+    }
+    
+    .container .card .face.face1 .content{
+        opacity: 0.2;
+        transition: 0.5s;
+    }
+    
+    .container .card:hover .face.face1 .content{
+        opacity: 1;
+    }
+    
+    .container .card .face.face1 .content img{
+        max-width: 100px;
+    }
+    
+    .container .card .face.face1 .content h3{
+        margin: 10px 0 0;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    .container .card .face.face2{
+        position: relative;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        transform: translateY(-100px);
+    }
+    
+    .container .card:hover .face.face2{
+        transform: translateY(0);
+    }
+    
+    .container .card .face.face2 .content p{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container .card .face.face2 .content a{
+        margin: 15px 0 0;
+        display:  inline-block;
+        text-decoration: none;
+        font-weight: 900;
+        color: #333;
+        padding: 5px;
+        border: 1px solid #333;
+    }
+    
+    .container .card .face.face2 .content a:hover{
+        background: #333;
+        color: #fff;
+    }
+    
+    /* Roadmap */
+    .roadmap {
+    padding: 80px 60px;
+    }
+    
+    .steps {
+    display: flex;
+    gap: 30px;
+    }
+    
+    /* Comparison */
+    .comparison {
+    padding: 80px 60px;
+    }
+    
+    .block {
+    margin-bottom: 40px;
+    }
+    
+    .block ul {
+    list-style: disc;
+    margin-left: 20px;
+    }
+    
+    /* Built for */
+    .built-for {
+    background: var(--light);
+    padding: 80px 60px;
+    }
+    
+    .features {
+    display: flex;
+    gap: 30px;
+    }
+    
+    /* FAQ */
+    .faq {
+    padding: 80px 60px;
+    }
+    
+    .faq-item {
+    margin-bottom: 30px;
+    }
+    
+    /* Final CTA */
+    .final-cta {
+    background: var(--primary);
+    color: white;
+    padding: 80px 60px;
+    text-align: center;
+    }
+    

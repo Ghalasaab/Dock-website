@@ -1,0 +1,188 @@
+{
+    "pharmacy": "Al-nour Pharmacy",
+    "staffTotal": 4,
+    "events": [
+        {
+            "day": "Monday",
+            "time": "09:00",
+            "transactions": 30,
+            "demand": "Low",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 0,
+                "restocking": "No",
+                "extraCheckout": "No",
+                "note": "Normal operation"
+            }
+        },
+        {
+            "day": "Monday",
+            "time": "18:00",
+            "transactions": 90,
+            "demand": "High",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "Yes",
+                "note": "Add 2 staff to checkout, start restocking tasks"
+            }
+        },
+        {
+            "day": "Tuesday",
+            "time": "10:00",
+            "transactions": 25,
+            "demand": "Low",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 0,
+                "restocking": "No",
+                "extraCheckout": "No",
+                "note": "Normal operation"
+            }
+        },
+        {
+            "day": "Tuesday",
+            "time": "19:00",
+            "transactions": 80,
+            "demand": "High",
+            "season": "School Season",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "No",
+                "note": "Add 2 staff to restocking tasks"
+            }
+        },
+        {
+            "day": "Wednesday",
+            "time": "08:00",
+            "transactions": 20,
+            "demand": "Low",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 0,
+                "restocking": "No",
+                "extraCheckout": "No",
+                "note": "Normal operation"
+            }
+        },
+        {
+            "day": "Wednesday",
+            "time": "20:00",
+            "transactions": 100,
+            "demand": "High",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "Yes",
+                "note": "Add 2 staff to checkout, start restocking tasks"
+            }
+        },
+        {
+            "day": "Thursday",
+            "time": "09:00",
+            "transactions": 40,
+            "demand": "Medium",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 1,
+                "restocking": "Yes",
+                "extraCheckout": "No",
+                "note": "Prepare 1 staff for restocking"
+            }
+        },
+        {
+            "day": "Thursday",
+            "time": "18:00",
+            "transactions": 95,
+            "demand": "High",
+            "season": "Summer",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "Yes",
+                "note": "Add 2 staff to checkout, restocking tasks active"
+            }
+        },
+        {
+            "day": "Friday",
+            "time": "08:00",
+            "transactions": 50,
+            "demand": "Medium",
+            "season": "Ramadan",
+            "recommendation": {
+                "staff": 1,
+                "restocking": "Yes",
+                "extraCheckout": "No",
+                "note": "Prepare 1 staff for restocking during morning rush"
+            }
+        },
+        {
+            "day": "Friday",
+            "time": "20:00",
+            "transactions": 120,
+            "demand": "High",
+            "season": "Ramadan",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "Yes",
+                "note": "Add 2 staff to restocking and 1 to checkout"
+            }
+        },
+        {
+            "day": "Saturday",
+            "time": "11:00",
+            "transactions": 35,
+            "demand": "Low",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 0,
+                "restocking": "No",
+                "extraCheckout": "No",
+                "note": "Normal operation"
+            }
+        },
+        {
+            "day": "Saturday",
+            "time": "19:00",
+            "transactions": 85,
+            "demand": "High",
+            "season": "Normal",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "Yes",
+                "note": "Add 2 staff to checkout, start restocking tasks"
+            }
+        },
+        {
+            "day": "Sunday",
+            "time": "10:00",
+            "transactions": 45,
+            "demand": "Medium",
+            "season": "Winter",
+            "recommendation": {
+                "staff": 1,
+                "restocking": "Yes",
+                "extraCheckout": "No",
+                "note": "Prepare 1 staff for restocking"
+            }
+        },
+        {
+            "day": "Sunday",
+            "time": "20:00",
+            "transactions": 110,
+            "demand": "High",
+            "season": "Winter",
+            "recommendation": {
+                "staff": 2,
+                "restocking": "Yes",
+                "extraCheckout": "Yes",
+                "note": "Add 2 staff to checkout, restocking tasks active"
+            }
+        }
+    ]
+}
